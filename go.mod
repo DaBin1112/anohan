@@ -3,6 +3,7 @@ module text
 go 1.18
 
 require (
+	github.com/BurntSushi/toml v1.2.0 // indirect
 	github.com/VividCortex/gohistogram v1.0.0 // indirect
 	github.com/aws/aws-sdk-go v1.44.114 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
@@ -10,6 +11,7 @@ require (
 	github.com/fortytw2/leaktest v1.3.0 // indirect
 	github.com/garyburd/redigo v1.6.4 // indirect
 	github.com/go-kit/kit v0.12.0 // indirect
+	github.com/go-redis/redis v6.15.9+incompatible // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/gomodule/redigo v1.8.9 // indirect

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798c0b37-4af6-402a-99eb-e3a6e6ec2ec3" name="Changes" comment="" />
+    <list default="true" id="798c0b37-4af6-402a-99eb-e3a6e6ec2ec3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config/dev.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/admin_u_redis.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/admin_u_redis.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/dao.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/dao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +27,12 @@
     </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../.." />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/common/func.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dao/admin_u_mysql.go" root0="SKIP_INSPECTION" />
@@ -27,6 +42,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FnYnks6jzvDEmo1q4rbfiLNETZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,10 +68,10 @@
     "last_opened_file_path": "C:/Go/src/awesomeProject2",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider"
+    "settings.editor.selected.configurable": "Template Data Languages"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build anohan">
     <configuration name="go build anohan" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="anohan" />
       <working_directory value="$PROJECT_DIR$" />
@@ -63,9 +81,31 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go test -fuzz anohan" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="anohan" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="anohan" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="go test -fuzz" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test anohan" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="anohan" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="anohan" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build anohan" />
+        <item itemvalue="Go Test.go test -fuzz anohan" />
+        <item itemvalue="Go Test.go test anohan" />
       </list>
     </recent_temporary>
   </component>
@@ -73,7 +113,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/anohan$go_test_anohan.out" NAME="go test anohan Coverage Results" MODIFIED="1665766610331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

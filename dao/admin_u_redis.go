@@ -2,8 +2,9 @@ package dao
 
 import (
 	"fmt"
+	"golang/redigo/redis/redis"
+
 	"github.com/donnie4w/go-logger/logger"
-	"golang/redigo/redis"
 )
 
 const (
